@@ -3,20 +3,20 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://github.com/Vincyselvakumari/fronted-job.git",
-
   "scripts": {
-   "start": "react-scripts start",
-  "build": "react-scripts build",
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d build"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "axios": "^1.11.0",
     "lucide-react": "^0.542.0",
     "rc-slider": "^11.1.8",
     "react": "^19.1.1",
-    "react-dom": "^19.1.1"
+    "react-dom": "^19.1.1",
+    "react-scripts": "^5.0.1",
+    "scripts": "^0.1.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.33.0",
