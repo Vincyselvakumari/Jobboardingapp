@@ -3,6 +3,7 @@
 import React, { useEffect } from "react";
 import './Jobcard.css';
 import { UserPlus, Layers, X } from 'lucide-react';
+import build from "../assets/Build.png";
 
 const Jobcard = ({ job, onDelete }) => {
   useEffect(() => {
