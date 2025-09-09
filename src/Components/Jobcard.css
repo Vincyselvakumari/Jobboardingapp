@@ -121,6 +121,10 @@ margin-right: 3px;
     
 }
 
+.map-icon{
+    color:#000;
+    margin-right:4px;
+}
 
 .job-desc {
     width: 300px;
