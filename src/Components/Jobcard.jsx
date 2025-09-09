@@ -2,7 +2,7 @@
 
 import React, { useEffect } from "react";
 import './Jobcard.css';
-import { UserPlus, Layers, X } from 'lucide-react';
+import { UserPlus, Layers, X ,MapPin} from 'lucide-react';
 import build from "../assets/Build.png";
 
 const Jobcard = ({ job, onDelete }) => {
@@ -27,10 +27,14 @@ const Jobcard = ({ job, onDelete }) => {
         </div>
 
         <div className="job-meta">
-          <div className="exp"> 
-            <UserPlus size={18} className="user"/>
-            <span>{job.location || job.experience}</span>
-          </div>
+          <div className="exp">
+  {job.id <= 8 ? (
+    <UserPlus size={18} className="user" />
+  ) : (
+    <MapPin size={18} className="map-icon" />
+  )}
+  <span>{job.id <= 8 ? job.experience : job.location}</span>
+</div>
 
           <div className="type">
             <img size={18} src={build} className="buil"/>
