@@ -34,8 +34,8 @@ const JobModal = ({ onClose, onJobCreated }) => {
 
     try {
       await axios.post("http://localhost:5000/api/jobs", payload);
-      if (onJobCreated) onJobCreated(); //  to refresh
-      if (onClose) onClose();           // close modal
+      if (onJobCreated) onJobCreated(); 
+      if (onClose) onClose();          
     } catch (err) {
       console.error(err);
       alert("Failed to save job. Check backend console.");
