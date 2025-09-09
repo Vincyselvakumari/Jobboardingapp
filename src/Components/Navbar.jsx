@@ -9,7 +9,7 @@ function Navbar({onCreateJobClick}) {
   return (
    <div className='Header'>
     <div className='navbar'>
-        <img id='logo' src='src/assets/logo1.png'/>
+        <img id='logo' src={logo}/>
         <ul>
             <li >Home</li>
             <li >Find Jobs</li>
