@@ -2,6 +2,7 @@
 
 import React from 'react'
 import './header.css'
+import logo from "../assets/logo1.png"
 
 
 function Navbar({onCreateJobClick}) {
