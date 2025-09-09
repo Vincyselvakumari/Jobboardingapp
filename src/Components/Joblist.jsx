@@ -51,7 +51,7 @@ const Joblist = ({ filters, refresh }) => {
         companyLogo: amazonLogo,
         jobType: "Onsite",
         experience: "1-3 yr Exp",
-        salary: 13000,
+        salary: 100000,
         postedAgo: "24h Ago",
       },
       {
@@ -61,7 +61,7 @@ const Joblist = ({ filters, refresh }) => {
         companyLogo: teslaLogo,
         jobType: "Onsite",
         experience: "1-3 yr Exp",
-        salary: 20000,
+        salary: 100000,
         postedAgo: "24h Ago",
       },
       {
@@ -71,7 +71,7 @@ const Joblist = ({ filters, refresh }) => {
         companyLogo: swiggyLogo,
         jobType: "Onsite",
         experience: "1-3 yr Exp",
-        salary: 50000,
+        salary: 100000,
         postedAgo: "24h Ago",
       },
       {
@@ -81,7 +81,7 @@ const Joblist = ({ filters, refresh }) => {
         companyLogo: amazonLogo,
         jobType: "Onsite",
         experience: "1-3 yr Exp",
-        salary:75000,
+        salary:100000,
         postedAgo: "24h Ago",
       },
       {
@@ -91,7 +91,7 @@ const Joblist = ({ filters, refresh }) => {
         companyLogo: teslaLogo,
         jobType: "Onsite",
         experience: "1-3 yr Exp",
-        salary: 18000,
+        salary: 100000,
         postedAgo: "24h Ago",
       },
       {
@@ -101,7 +101,7 @@ const Joblist = ({ filters, refresh }) => {
         companyLogo: swiggyLogo,
         jobType: "Onsite",
         experience: "1-3 yr Exp",
-        salary: 16000,
+        salary: 100000,
         postedAgo: "24h Ago",
       },
       {
@@ -111,7 +111,7 @@ const Joblist = ({ filters, refresh }) => {
         companyLogo: amazonLogo,
         jobType: "Onsite",
         experience: "1-3 yr Exp",
-        salary: 15000,
+        salary: 150000,
         postedAgo: "24h Ago",
       },
       {
@@ -121,12 +121,12 @@ const Joblist = ({ filters, refresh }) => {
         companyLogo: teslaLogo,
         jobType: "Onsite",
         experience: "1-3 yr Exp",
-        salary: 30000,
+        salary: 300000,
         postedAgo: "24h Ago",
       },
       { id: 9, title: "React Js Developer", company: "Amazon", companyLogo: amazonLogo, jobType: "Part Time", location: "Chennai", salary: 110000, postedAgo: "24h Ago" },
-      { id: 10, title: "Node Js Developer", company: "Tesla", companyLogo: teslaLogo, jobType: "Internship", location: "Bangalore", salary: 90000, postedAgo: "24h Ago" },
-      { id: 11, title: "Web Developer", company: "Swiggy", companyLogo: swiggyLogo, jobType: "Contract", location: "Remote", salary: 70000, postedAgo: "24h Ago" },
+      { id: 10, title: "Node Js Developer", company: "Tesla", companyLogo: teslaLogo, jobType: "Internship", location: "Bangalore", salary: 900000, postedAgo: "24h Ago" },
+      { id: 11, title: "Web Developer", company: "Swiggy", companyLogo: swiggyLogo, jobType: "Contract", location: "Remote", salary: 700000, postedAgo: "24h Ago" },
       { id: 13, title: "Business Analyst", company: "Amazon", companyLogo: amazonLogo, jobType: "Full Time", location: "Chennai", salary: 50000, postedAgo: "24h Ago" },
       { id: 14, title: "Data Engineer", company: "Tesla", companyLogo: teslaLogo, jobType: "Internship", location: "Bangalore", salary: 60000, postedAgo: "24h Ago" },
       { id: 15, title: "UX/UI Designer", company: "Swiggy", companyLogo: swiggyLogo, jobType: "Full Time", location: "Remote", salary: 70000, postedAgo: "24h Ago" },
