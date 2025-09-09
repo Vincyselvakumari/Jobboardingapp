@@ -121,17 +121,17 @@ const Joblist = ({ filters, refresh }) => {
         companyLogo: teslaLogo,
         jobType: "Onsite",
         experience: "1-3 yr Exp",
-        salary: 300000,
+        salary: 200000,
         postedAgo: "24h Ago",
       },
-      { id: 9, title: "React Js Developer", company: "Amazon", companyLogo: amazonLogo, jobType: "Part Time", location: "Chennai", salary: 110000, postedAgo: "24h Ago" },
-      { id: 10, title: "Node Js Developer", company: "Tesla", companyLogo: teslaLogo, jobType: "Internship", location: "Bangalore", salary: 900000, postedAgo: "24h Ago" },
-      { id: 11, title: "Web Developer", company: "Swiggy", companyLogo: swiggyLogo, jobType: "Contract", location: "Remote", salary: 700000, postedAgo: "24h Ago" },
+      { id: 9, title: "React Js Developer", company: "Amazon", companyLogo: amazonLogo, jobType: "Part Time", location: "Chennai", salary: 11000, postedAgo: "24h Ago" },
+      { id: 10, title: "Node Js Developer", company: "Tesla", companyLogo: teslaLogo, jobType: "Internship", location: "Bangalore", salary: 90000, postedAgo: "24h Ago" },
+      { id: 11, title: "Web Developer", company: "Swiggy", companyLogo: swiggyLogo, jobType: "Contract", location: "Remote", salary: 70000, postedAgo: "24h Ago" },
       { id: 13, title: "Business Analyst", company: "Amazon", companyLogo: amazonLogo, jobType: "Full Time", location: "Chennai", salary: 50000, postedAgo: "24h Ago" },
       { id: 14, title: "Data Engineer", company: "Tesla", companyLogo: teslaLogo, jobType: "Internship", location: "Bangalore", salary: 60000, postedAgo: "24h Ago" },
       { id: 15, title: "UX/UI Designer", company: "Swiggy", companyLogo: swiggyLogo, jobType: "Full Time", location: "Remote", salary: 70000, postedAgo: "24h Ago" },
       { id: 16, title: "MERN Fullstack Developer", company: "Amazon", companyLogo: amazonLogo, jobType: "Part Time", location: "Chennai", salary: 80000, postedAgo: "24h Ago" },
-      { id: 17, title: " Developer", company: "Tesla", companyLogo: teslaLogo, jobType: "Contract", location: "Bangalore", salary: 10000, postedAgo: "24h Ago" },
+      { id: 17, title: " Developer", company: "Tesla", companyLogo: teslaLogo, jobType: "Contract", location: "Bangalore", salary: 100000, postedAgo: "24h Ago" },
 
      
       { id: 18, title: "Frontend Developer", company: "Tesla", companyLogo: teslaLogo, jobType: "Full Time", location: "Chennai", salary: 60000, postedAgo: "12h Ago" },
@@ -143,7 +143,7 @@ const Joblist = ({ filters, refresh }) => {
       { id: 24, title: "Cloud Engineer", company: "Tesla", companyLogo: teslaLogo, jobType: "Full Time", location: "Remote", salary: 90000, postedAgo: "2w Ago" },
       { id: 25, title: "Machine Learning Intern", company: "Amazon", companyLogo: amazonLogo, jobType: "Internship", location: "Chennai", salary: 20000, postedAgo: "4d Ago" },
       { id: 26, title: "DevOps Engineer", company: "Swiggy", companyLogo: swiggyLogo, jobType: "Contract", location: "Bangalore", salary: 80000, postedAgo: "6d Ago" },
-      { id: 27, title: "Full Stack Intern", company: "Tesla", companyLogo: teslaLogo, jobType: "Internship", location: "Remote", salary: 10000, postedAgo: "8h Ago" },
+      { id: 27, title: "Full Stack Intern", company: "Tesla", companyLogo: teslaLogo, jobType: "Internship", location: "Remote", salary: 200000, postedAgo: "8h Ago" },
     ]);
   }, []);
 
