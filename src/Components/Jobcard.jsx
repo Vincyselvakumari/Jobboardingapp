@@ -45,9 +45,7 @@ const Jobcard = ({ job, onDelete }) => {
             <Layers size={16} className="layer"/>
         
             <span>
-              {job.isBackend && typeof job.salary === 'number' 
-                ? `₹${job.salary.toLocaleString()} `
-                : job.salary}
+              {Math.round(job.salary * 12/100000)}LPA
             </span>
           </div>
         </div>
