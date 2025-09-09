@@ -33,7 +33,7 @@ const Jobcard = ({ job, onDelete }) => {
           </div>
 
           <div className="type">
-            <img size={18} src="src/assets/Build.png" className="buil"/>
+            <img size={18} src={build} className="buil"/>
             <span>{job.jobType}</span>
           </div>
 
